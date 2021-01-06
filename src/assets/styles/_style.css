@@ -1,0 +1,49 @@
+.center_row {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 40px 6px rgba(115,107,73,0.68);
+    border-radius: 6px;
+    background: #e3c792;
+    
+}
+.MuiFormLabel-root.Mui-focused {
+    color:#e3c792 !important;
+    border-bottom: 3px solid red !important;
+}
+.MuiInput-underline:after {
+    border-bottom: 2px solid wheat !important;
+    
+}
+.MuiFilledInput-underline:after {
+    border-bottom: 2px solid black !important;
+}
+.MuiButton-root {
+    border-color :rgb(221, 153, 26) !important;
+    background-color :#df940a !important;
+    color:white !important;
+    height: 56px !important;
+}
+.border_red {
+    border-bottom: 3px solid red !important;
+}
+
+.position_valid {
+    position: absolute;
+    z-index: 2;
+    left: 1.5rem;
+    font-size: 12px;
+}
+.buttonRegister {
+    background: #eaac13;
+    height: 3.5rem;
+    border: 2px dashed;
+    color: white;
+    font-size: x-large;
+    
+}
+.buttonRegister:hover {
+    background:  #8a670f;;
+
+}
